@@ -1,0 +1,29 @@
+CẤU HÌNH GIẢI THÍCH
+
+1. redis:7-alpine
+   - Image Redis nhẹ, chạy nhanh.
+
+2. mem_limit: 256m
+   - Giới hạn RAM container tối đa 256MB.
+
+3. cpus: 0.50
+   - Giới hạn container dùng tối đa nửa CPU.
+
+4. command: redis-server --appendonly yes
+   - Bật AOF để dữ liệu có thể lưu bền vững hơn.
+
+5. volumes:
+   - redis_data:/data
+   - Gắn volume để dữ liệu Redis không mất khi container bị xóa.
+
+LỆNH TEST NHANH
+
+1. Vào Redis CLI
+docker exec -it redis_bai15 redis-cli
+
+2. Ghi dữ liệu thử
+SET name "docker-redis"
+GET name
+
+3. Xem thống kê tài nguyên
+docker stats redis_bai15
