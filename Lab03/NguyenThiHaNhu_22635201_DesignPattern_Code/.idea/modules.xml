@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LibrarySystem/LibrarySystem.iml" filepath="$PROJECT_DIR$/LibrarySystem/LibrarySystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/NguyenThiHaNhu_22635201_DesignPattern_Code.iml" filepath="$PROJECT_DIR$/.idea/NguyenThiHaNhu_22635201_DesignPattern_Code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OrderManagementProject/OrderManagementProject.iml" filepath="$PROJECT_DIR$/OrderManagementProject/OrderManagementProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adapter-pattern/adapter-pattern.iml" filepath="$PROJECT_DIR$/adapter-pattern/adapter-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/composite-file-system/composite-file-system.iml" filepath="$PROJECT_DIR$/composite-file-system/composite-file-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/observer-pattern/observer-pattern.iml" filepath="$PROJECT_DIR$/observer-pattern/observer-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment-system/payment-system.iml" filepath="$PROJECT_DIR$/payment-system/payment-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tax-system/tax-system.iml" filepath="$PROJECT_DIR$/tax-system/tax-system.iml" />
+    </modules>
+  </component>
+</project>
