@@ -1,0 +1,24 @@
+server:
+  port: ${SERVER_PORT:8082}
+
+spring:
+  application:
+    name: movie-service
+  datasource:
+    url: ${MOVIE_DB_URL:jdbc:mariadb://localhost:3306/movie_service}
+    username: ${MOVIE_DB_USERNAME:root}
+    password: ${MOVIE_DB_PASSWORD:sapassword}
+    driver-class-name: org.mariadb.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+  jackson:
+    default-property-inclusion: non_null
+
+app:
+  seed-data: ${APP_SEED_DATA:true}
