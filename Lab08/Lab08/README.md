@@ -1,3 +1,9 @@
+#Thanh vien nhom:
+#Nguyen Thi Ha Nhu - 22635201
+#Huynh Le Minh Duy
+#Le Ngoc Hao
+#Le Minh Khoa
+
 # Travel Booking System - Orchestration-Driven SOA
 
 Node.js Express project for Lab 08. The system uses an orchestrator service to coordinate user validation, tour lookup, booking creation, and payment processing.
